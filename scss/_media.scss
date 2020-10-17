@@ -1,0 +1,93 @@
+@media(max-width: 1200px){
+    .container{
+        max-width: 100%;
+    }
+    .popap__wrap{
+        margin: 50px auto 0;
+    }
+}
+
+@media(max-width: 768px){
+    .container {
+        padding: 0 15px;
+    }
+    .popap__wrap {
+        padding: 35px 30px;
+        max-width: 480px;
+        margin: 35px auto 0;
+    }
+    .form__percent{
+        line-height: 22px;
+        padding: 0 7px;
+        width: 60px;
+    }
+    .form__timer{
+        font-size: 20px;
+        margin-bottom: 15px;
+        &::before{
+            width: 20px;
+            height: 21px;
+        }
+    }
+    .form__title{
+        font-size: 29px;
+        margin-bottom: 20px;
+    }
+    .form__payment-custom{
+        margin: 0 auto 25px;
+        width: 300px;
+        height: 36px;
+    }
+    .rate__block{
+        margin: 0 -5px 30px;
+    }
+    .rate__item{
+        padding: 20px 15px;
+    }
+    .btn{
+        padding: 10px 20px;
+    }
+}
+
+@media(max-width: 520px){
+    .popap__wrap {
+        padding: 30px 15px 25px;
+        max-width: 90%;
+        margin: 60px auto 0;
+    }
+    .form__percent {
+        line-height: 18px;
+        padding: 0 5px;
+        width: 55px;
+    }
+    .form__title {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .form__payment-custom{
+        width: 250px;
+    }
+    .rate__item {
+        padding: 10px 5px;
+    }
+    .item__replenishment-text {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .item__replenishment-sum {
+        margin-bottom: 10px;
+    }
+    .item__value-text {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .item__value-sum {
+        font-size: 18px;
+    }
+    .form__enroll{
+        margin-bottom: 15px;
+    }
+    .form__replenishment-btn{
+        margin: 0 auto 15px;
+    }
+}

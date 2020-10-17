@@ -9,7 +9,6 @@ $(function () {
 
     $('.form__close').on('click', function () {
         $('.overlay__popup, .popap__wrap').hide();
-        
     });
 
     $('.form__replenishment-btn').on('click', function () {
@@ -28,26 +27,10 @@ $(function () {
         const writeValue = $('.form__enroll-value').text(value);
     }
 
-    // $('.overlay__popup').on('click', function() { 
-    //     $('.overlay__popup, .popap__wrap').hide();
-    // });
-
-    //     const time = $('.seconds');
-    //     intervalId = setInterval(timerDecrement, 1000);
-
-    //   function timerDecrement() {
-    //     const newTime = time.text() - 1;
-
-    //     time.text(newTime);
-
-    //     if(newTime === 0) clearInterval(intervalId);
-    //   }
-
-    // $('#select option:selected').text()
-
     function pad(num) {
         return num < 10 ? "0" + num : num;
     }
+
     function startTime() {
         var tCont = $('.form__timer');
         var timer = tCont.html().split(':');
@@ -76,7 +59,4 @@ $(function () {
         }
     }
 
-    function stopTimer(){
-        
-    }
 });
