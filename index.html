@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="contant">
+    <div class="container">
+      <div class="deposit__row">
+        <button class="deposit__modal-btn btn">Открыть модалку</button>
+      </div>
+    </div>
+  </div>
+  <div class="overlay__popup">
+    <div class="popap__wrap">
+      <form class="deposit__form" action="">
+        <div class="form__percent">+100%</div>
+        <btton class="form__close"></btton>
+        <div class="form__timer">00:16:00</div>
+        <div class="form__title">Увеличьте свой депозит!</div>
+        <span class="form__payment-custom">
+          <select class="payment__select" name="" id="">
+            <option value="1">Банковская карта</option>
+            <option value="2">Биткоин</option>
+            <option value="3">Выставить счет</option>
+          </select>
+        </span>
+        <div class="form__rate">
+          <ul class="rate__block">
+            <li class="rate__item">
+              <div class="item__replenishment-text">Пополнить на</div>
+              <div class="item__replenishment-sum">$ 50</div>
+              <div class="item__value-text">Получить </div>
+              <div class="item__value-sum">$ 100</div>
+            </li>
+            <li class="rate__item">
+              <div class="item__replenishment-text">Пополнить на</div>
+              <div class="item__replenishment-sum">$ 100</div>
+              <div class="item__value-text">Получить </div>
+              <div class="item__value-sum">$ 200</div>
+            </li>
+            <li class="rate__item">
+              <div class="item__replenishment-text">Пополнить на</div>
+              <div class="item__replenishment-sum">$ 500</div>
+              <div class="item__value-text">Получить </div>
+              <div class="item__value-sum">$ 1000</div>
+            </li>
+          </ul>
+        </div>
+        <div class="form__enroll"><span class="form__enroll-value">$0</span> будет зачислено вам на счет</div>
+        <button class="form__replenishment-btn btn">Пополнить</button>
+        <div class="form__info">
+          При пополнении счета с банковской карты списание средств происходит по курсу банка клиента
+        </div>
+        <a href="#" class="form__details">Подробнее</a>
+      </form>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>

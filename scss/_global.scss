@@ -1,0 +1,50 @@
+html{
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: #282A3B;
+    font-family: 'Gilroy-Regular', sans-serif;
+    color: #eee;
+    font-size: 16px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    li{
+        list-style-type: none;
+    }
+}
+
+button{
+    border: none;
+    &:focus{
+        outline: none;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1200px;
+    padding: 0 45px;
+    margin: 0 auto;
+}
+
+.btn{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #282A3B;
+    background-color: #83F6B1;
+    padding: 14px 24px;
+    border-radius: 555px;
+    cursor: pointer;
+}
+
